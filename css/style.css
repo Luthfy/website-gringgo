@@ -42,4 +42,72 @@ a {
 .small-banner {
     height: 320px;
 }
+
+.img-fluid {
+    width: 100%;
+}
+
+/* Ilustrasi Card */
+.ilustrasi {
+    min-height: 140vh;
+}
+
+.ilustrasi-image {
+    height: 340px;
+}
+
+.ilustrasi-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.ilustrasi-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#findout  {
+    min-height: 200vh;
+}
+
+.form {
+    width: 80vw;
+}
+
+#footer {
+    background-color: #232323;
+    min-height: 300px;
+    color: #FFFFFF;
+    padding-top: 5rem;
+}
+
+#footer .text-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#footer .title-footer {
+    color: #1C957F;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+#footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer ul li {
+    margin: 1rem;
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
 }
