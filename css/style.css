@@ -49,6 +49,60 @@ body {
         line-height: 26px;
     }
 
+#profile {
+    padding-top: 10rem;
+    min-height: 140vh;
+}
+
+    #profile .img-aboutus {
+        min-width: 530px;
+        max-height: 400px;
+    }
+
+#visionAndMission {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+}
+
+    #visionAndMission .cards {
+        margin-top: 2rem !important;
+        margin-bottom: 4rem !important;
+    }
+
+    #visionAndMission .cards .card {
+        width: 18rem;    
+        padding: 0.4rem;
+        background: #FFFFFF;
+        box-shadow: 10px 20px 50px rgba(35, 35, 35, 0.05);
+        border-radius: 24px;
+        border: none;
+        margin: 0.8rem;
+    }
+
+#sponsor {
+    min-height: 90vh !important;
+}
+
+#howItWork {
+    padding-top: 6rem;
+    min-height: 200vh !important;
+}
+
+#project {
+    min-height: 30vh !important;
+    padding-bottom: 3rem;
+}
+
+    #project .img-project {
+        height: 400px !important;
+    }
+
+#product {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding-bottom: 2rem;
+}
+
 .nav-link {
     font-weight: 600;
 }
@@ -140,3 +194,44 @@ a {
     line-height: 19px;
     font-weight: 400;
 }
+
+.btn-green {
+    background-color: #1C957F !important;
+    color: #FFFFFF;
+    padding: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.text-normal {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.text-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+}
+
+.text-tag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+    letter-spacing: 00.2em;
+    text-transform: uppercase;
+}
+
+
