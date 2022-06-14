@@ -1,6 +1,53 @@
+@media screen and (max-width: 767px) {
+    .mobile-space {
+        margin-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .mobile-padding-x {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .mobile-padding-y {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+#header {
+
+}
+
+#bigBanner {
+    margin-bottom: 3rem;
+}
+
+#ilustrasi {
+    min-height: 100vh;
+    margin-bottom: 3rem !important;
+}
+
+    #ilustrasi .ilustrasi-image {
+        height: 340px;
+    }
+
+    #ilustrasi .ilustrasi-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    #ilustrasi .ilustrasi-content {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
 
 .nav-link {
     font-weight: 600;
@@ -40,37 +87,18 @@ a {
 }
 
 .small-banner {
-    height: 320px;
+
 }
 
 .img-fluid {
     width: 100%;
 }
 
-/* Ilustrasi Card */
-.ilustrasi {
-    min-height: 140vh;
-}
 
-.ilustrasi-image {
-    height: 340px;
-}
 
-.ilustrasi-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.ilustrasi-content {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-}
 
 #findout  {
-    min-height: 200vh;
+    margin-bottom: 4rem;
 }
 
 .form {
@@ -89,6 +117,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    max-width: 80%;
 }
 
 #footer .title-footer {
