@@ -10,9 +10,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -30,8 +29,55 @@
                 <div class="navbar-nav">
                     <a class="nav-link active" href="#">Home</a>
                     <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Service</a>
+                    <a class="nav-link dropdownmenu" href="#">Service 
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.75 5.25L6 8.25L9.25 5.25" stroke="rgba(0,0,0,.55)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
                     <a class="nav-link" href="#">Contact Us</a>
+
+                    
+                    <div class="submenu mobile-submenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h5 class="h5 title-submenu">
+                                        Company
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            Sustainability Compliance
+                                        </li>
+                                        <li>
+                                            Education on Sustainability
+                                        </li>
+                                        <li>
+                                            Sustainability Program
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h5 class="h5 title-submenu">
+                                        Environment
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            One integrated platform to measure impact
+                                        </li>
+                                        <li>
+                                            Data collection
+                                        </li>
+                                        <li>
+                                            Monitoring & Tracking
+                                        </li>
+                                        <li>
+                                            Prediction & Machine Learning
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -40,16 +86,16 @@
 
     <!-- BIGBANNER -->
     <section id="bigBanner">
-        <img src="img/bigbanner.png" alt="image_banner" width="100%">
+        <img src="img/bigbanner.png" alt="image_banner" class="image-banner">
     </section>
     <!-- ENDBIGBANNER -->
 
     <!-- HowItWork -->
     <section id="howItWork">
-        <div class="container">
-            <div class="row">
+        <div class="container mobile-padding-y">
+            <div class="row mobile-padding-x">
                 <div class="col-lg-6 col-md-6 col-sm-12 order-sm-1 order-md-1 order-lg-1 mb-4 mt-2">
-                    <svg width="530" height="400" viewBox="0 0 530 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="100%" height="400" viewBox="0 0 530 400" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="530" height="400" fill="white"/>
                         <path d="M373.552 104.416C301.018 90.8034 312.317 9.10078 168.428 39.877C35.1543 67.6939 205.486 104.416 174.821 160.642C144.156 216.867 62.1871 127.498 61.0077 226.337C59.8283 325.176 193.861 378.174 304.726 388.827C415.591 399.48 380.214 335.444 381.394 282.769C382.573 230.094 436.651 245.276 460.829 205.03C485.007 164.785 446.086 118.029 373.552 104.416Z" fill="#1C957F"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M397.751 336.02C397.751 336.02 394.317 338.394 392.689 333.913C391.061 329.432 390.038 326.27 390.038 326.27C390.038 326.27 386.535 322.754 384.706 322.754C382.877 322.754 376.884 318.611 377.499 315.356C378.114 312.1 385.2 312.47 387.214 312.47C389.228 312.47 387.701 307.517 387.701 306.014C387.701 304.51 390.066 291.741 395.69 293.652C401.313 295.563 404.363 298.922 402.123 304.747C407.986 304.465 413.323 301.764 414.007 313.235C413.539 317.45 413.649 318.421 416.221 321.544C418.793 324.668 419.841 329.369 417.701 330.968C415.562 332.567 412.084 333.18 410.923 333.913C409.761 334.646 409.144 336.243 409.144 338.878C409.144 341.513 405.105 336.923 405.105 336.923L401.313 332.877L397.751 336.02Z" fill="white"/>
@@ -81,7 +127,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mobile-padding-x">
                 <div class="col-lg-12 col-sm-12 col-sm-12 order-sm-1 order-md-1 order-lg-1 mb-4 mt-2">
                     <p class="text-normal">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
@@ -93,7 +139,7 @@
                     </p>
                 </div>
                 <div class="col-lg-6 col-sm-6 col-sm-12 order-sm-2 order-md-2 order-lg-3 mb-4 mt-2">
-                    <svg width="530" height="400" viewBox="0 0 530 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="100%" height="400" viewBox="0 0 530 400" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="530" height="400" fill="white"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M311.498 367C399.159 367 411.586 328.156 424.878 321.018C438.169 313.88 429.906 299.556 438.623 288.751C452.547 271.493 460.987 280.387 465.595 257.999C470.203 235.61 461.826 229.276 461.826 209.288C461.826 169.24 481.087 150.282 456.49 129.329C431.893 108.375 390.818 110.848 350.193 110.848C274.79 110.848 229.618 7.89316 129.049 38.7806C94.3905 49.4251 98.221 63.9311 105.836 115.195C109.143 137.456 84.1744 165.759 88.5066 191.056C96.4189 237.259 117.316 230.992 156.743 262.187C163.358 267.42 173.005 267.366 180.216 272.733C192.305 281.732 193.083 295.724 215.684 305.162C252.128 320.38 249.036 367 311.498 367Z" fill="#1C957F"/>
                         <path d="M241.155 163.838C246.801 167.523 249.071 172.29 247.966 178.139C242.677 186.065 240.033 192.929 240.033 198.73C240.033 204.532 239.635 212.078 238.84 221.369L194.891 222.297L194.798 222.241C193.623 222.264 192.468 222.282 191.334 222.297C181.552 222.424 172.874 223.72 172.464 223.783C169.262 224.28 163.49 218.338 161.888 216.325C159.314 213.091 158.091 209.262 157.547 205.096C157.034 201.166 157.758 197.512 159.179 194.009C160.839 189.917 163.437 186.375 166.732 183.255C170.345 179.944 174.235 177.24 178.596 175.246C178.766 175.169 181.896 173.628 182.046 173.648C182.146 173.662 187.151 175.265 194.11 178.516C202.009 172.902 210.553 166.96 219.742 160.693C228.371 159.104 235.509 160.153 241.155 163.838Z" fill="white"/>
@@ -132,7 +178,7 @@
     <!-- Project -->
     <section id="project">
         <div class="container">
-            <div class="row">
+            <div class="row mobile-padding-x">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <p class="text-tag">- Project -</p>
                     <h4 class="h4 text-title mb-4 mt-2">
@@ -171,12 +217,74 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="m-2 p-4 product-1">
-                        <img src="img/image 25.jpg" alt="">
+                        <img src="img/image 25.jpg" alt="" class="img-product">
+                        <div class="img-product-box p-4">
+                            <div class="content mt-2">
+                                <h4 class="h4 text-title color-green">G-Collect</h4>
+                                <p class="text-normal">
+                                    We believe data collection is important. The ability to gather data easily and the ability to analyze the data properly is the key to achieve better judgement of the existing situation. With G-Collect, we digitize data collection activity and help users analyzing their data so they can focus on what's matter. Please contact us to explore more.
+                                </p>
+                                <div class="d-block">
+                                    <a href="#">
+                                        <span class="text-link-header">Find Out How</span>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="m-2 p-4 product-1">
+                        <img src="img/image 25.jpg" alt="" class="img-product">
+                        <div class="img-product-box p-4">
+                            <div class="content mt-2">
+                                <h4 class="h4 text-title color-green">G-Collect</h4>
+                                <p class="text-normal">
+                                    We believe data collection is important. The ability to gather data easily and the ability to analyze the data properly is the key to achieve better judgement of the existing situation. With G-Collect, we digitize data collection activity and help users analyzing their data so they can focus on what's matter. Please contact us to explore more.
+                                </p>
+                                <div class="d-block">
+                                    <a href="#">
+                                        <span class="text-link-header">Find Out How</span>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="m-2 p-4 product-1">
+                        <img src="img/image 25.jpg" alt="" class="img-product">
+                        <div class="img-product-box p-4">
+                            <div class="content mt-2">
+                                <h4 class="h4 text-title color-green">G-Collect</h4>
+                                <p class="text-normal">
+                                    We believe data collection is important. The ability to gather data easily and the ability to analyze the data properly is the key to achieve better judgement of the existing situation. With G-Collect, we digitize data collection activity and help users analyzing their data so they can focus on what's matter. Please contact us to explore more.
+                                </p>
+                                <div class="d-block">
+                                    <a href="#">
+                                        <span class="text-link-header">Find Out How</span>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="m-2 p-4 product-2">
-                        <img src="img/image 23.jpg" alt="">
+                        <img src="img/image 23.jpg" alt="" class="img-product">
+                        <div class="img-product-box p-4">
+                            <div class="content mt-2">
+                                <h4 class="h4 text-title color-green">G-Collect</h4>
+                                <p class="text-normal">
+                                    We believe data collection is important. The ability to gather data easily and the ability to analyze the data properly is the key to achieve better judgement of the existing situation. With G-Collect, we digitize data collection activity and help users analyzing their data so they can focus on what's matter. Please contact us to explore more.
+                                </p>
+                                <div class="d-block">
+                                    <a href="#">
+                                        <span class="text-link-header">Find Out How</span>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -203,8 +311,9 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-2 col-sm-12 mobile-padding-x mobile-padding-y">
-                    
-                    <h6 class="h5 title-footer mb-4">Service</h6>
+                    <h6 class="h5 title-footer mb-4">
+                        Service
+                    </h6>
                     <ul>
                         <li>Environment</li>
                         <li>People</li>
@@ -243,6 +352,13 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <p>Gringgo©  2022</p>
+            <p> All Right Reserved</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

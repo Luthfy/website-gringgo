@@ -24,6 +24,10 @@
     .mobile-find-our-width {
     }
 
+    #project .img-project {
+        width: 100%;
+    }
+
     #profile {
         min-height: 100vh !important;
     }
@@ -44,6 +48,10 @@ body {
 #bigBanner {
     margin-bottom: 3rem;
 }
+
+    #bigBanner .big-banner {
+        width: 100%;
+    }
 
 #ilustrasi {
     min-height: 100vh;
@@ -112,7 +120,7 @@ body {
 }
 
     #project .img-project {
-        height: 400px !important;
+        /* height: 400px !important; */
     }
 
 #product {
@@ -120,6 +128,28 @@ body {
     margin-bottom: 6rem;
     padding-bottom: 2rem;
 }
+
+    #product .img-product {
+        width: 100%;
+    }
+
+    #product .img-product:hover {
+        display: none;
+    }
+
+    #product .img-product:hover ~ .img-product-box {
+        display: block;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    #product .img-product-box {
+        display: none;
+        width: 100%;
+        /* height: 560px; */
+        border-radius: 20px;
+        background-color: #FFC143;
+        border-left: 22px solid #1C957F;
+    }
 
 .nav-link {
     font-weight: 600;
@@ -324,6 +354,70 @@ a {
 }
 
 .product-2:hover {
+    display: block;
+}
+
+#sectionOne {
+    display: block;
+}
+
+    #sectionOne:hover {
+        display: none;
+    }
+
+#sectionOneShadow {
+    display: none;
+}
+
+    #sectionOne:hover ~ #sectionOneShadow {
+        display: block;
+    }
+
+#sectionTwo {
+    display: block;
+}
+
+#sectionTwoShadow {
+    display: none;
+}
+
+#sectionTwo:hover {
+    display: none;
+}
+
+#sectionTwo:hover ~ #sectionTwoShadow {
+    display: block;
+}
+
+#sectionThree {
+    display: block;
+}
+
+#sectionThreeShadow {
+    display: none;
+}
+
+#sectionThree:hover {
+    display: none;
+}
+
+#sectionThree:hover ~ #sectionThreeShadow {
+    display: block;
+}
+
+#sectionFour {
+    display: block;
+}
+
+#sectionFourShadow {
+    display: none;
+}
+
+#sectionFour:hover {
+    display: none;
+}
+
+#sectionFour:hover ~ #sectionFourShadow {
     display: block;
 }
 
