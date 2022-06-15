@@ -14,6 +14,24 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+
+    .mobile-submenu {
+        right: 0px !important;
+        top: 6rem !important;
+        width: 80% !important;
+    }
+
+    .mobile-find-our-width {
+    }
+
+    #profile {
+        min-height: 100vh !important;
+    }
+
+    .img-aboutus {
+        min-width: 0px !important;
+        width: 100% !important;
+    }
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -140,16 +158,9 @@ a {
 
 }
 
-.small-banner {
-
-}
-
 .img-fluid {
     width: 100%;
 }
-
-
-
 
 #findout  {
     margin-bottom: 4rem;
@@ -232,6 +243,88 @@ a {
     line-height: 1.438rem;
     letter-spacing: 00.2em;
     text-transform: uppercase;
+}
+
+.dropdownmenu:hover ~ .submenu {
+    display: block;
+}
+
+.submenu:hover {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    width: 50%;
+    padding: 1rem;
+    min-height: 200px;
+    z-index: 99;
+    position: absolute;
+    background: white;
+    box-shadow: 10px 10px 100px rgba(35, 35, 35, 0.07);
+    right: 10rem;
+    top: 6rem;
+    border-radius: 0.5rem;
+}
+
+    .submenu .title-submenu {
+        margin-top: 1.4rem;
+        color: #1C957F;
+        font-style: normal;
+        font-size: 1.5rem;
+        line-height: 1.93rem;
+        font-weight: 600;
+    }
+
+    .submenu ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .submenu ul li {
+        padding: 0.5rem;
+        padding-left: 0;
+    }
+
+.box-topbottomleft-radius {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: -10px 8px 100px rgba(35, 35, 35, 0.05);
+    border-radius: 40px 0px 0px 40px;
+}
+
+.accordion-active {
+    background: #FFC143;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.color-green {
+    color: #1C957F !important;
+}
+
+.title-find-our {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    margin-bottom: 1rem;
+}
+
+
+.text-find-our {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+}
+
+.cursor-active {
+    cursor: pointer;
+}
+
+.product-2:hover {
+    display: block;
 }
 
 

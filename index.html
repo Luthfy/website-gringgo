@@ -28,8 +28,55 @@
                 <div class="navbar-nav">
                     <a class="nav-link active" href="#">Home</a>
                     <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Service</a>
+                    <a class="nav-link dropdownmenu" href="#">Service 
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.75 5.25L6 8.25L9.25 5.25" stroke="rgba(0,0,0,.55)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
                     <a class="nav-link" href="#">Contact Us</a>
+
+                    
+                    <div class="submenu mobile-submenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h5 class="h5 title-submenu">
+                                        Company
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            Sustainability Compliance
+                                        </li>
+                                        <li>
+                                            Education on Sustainability
+                                        </li>
+                                        <li>
+                                            Sustainability Program
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h5 class="h5 title-submenu">
+                                        Environment
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            One integrated platform to measure impact
+                                        </li>
+                                        <li>
+                                            Data collection
+                                        </li>
+                                        <li>
+                                            Monitoring & Tracking
+                                        </li>
+                                        <li>
+                                            Prediction & Machine Learning
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -218,9 +265,12 @@
                     </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mobile-padding-x">
-                    <div class="accordion-active p-4 m-2 rounded-3" id="sectionOne">
-                        <h4 class="h4">One integrated platform to measure impact</h4>
-                        <p>
+                    <div class="p-4 m-2 box-topbottomleft-radius mobile-find-our-width m-0 p-0" id="sectionOne">
+                        <h4 class="h4 title-find-our m-0 cursor-active">One integrated platform to measure impact</h4>
+                    </div>
+                    <div class="accordion-active p-4 m-2 box-topbottomleft-radius mobile-find-our-width mobile-padding-x d-none" id="sectionOneShadow">
+                        <h4 class="h4 title-find-our color-green">One integrated platform to measure impact</h4>
+                        <p class="text-find-our mb-3">
                             With an AI-based integrated platform to collect, monitor, and analyze various data in order to better tracking and monitoring activities. We aim to motivate a change of behaviour for the users in a fun yet rewarding way. 
                         </p>
                         <div>
@@ -229,8 +279,25 @@
                             </a> 
                         </div>
                     </div>
-                    <div id="sectionTwo" class="p-4 m-2 rounded-3 mobile-padding-x">
-                        <h4 class="h4">Data collection</h4>
+                    <div class="p-4 m-2 box-topbottomleft-radius mobile-find-our-width m-0 p-0" id="sectionOne">
+                        <h4 class="h4 title-find-our m-0 cursor-active">Data collection</h4>
+                    </div>
+                    <div class="accordion-active box-topbottomleft-radius mobile-find-our-width p-4 m-2 mobile-padding-x d-none" id="sectionTwo">
+                        <h4 class="h4 title-find-our color-green">Data collection</h4>
+                        <p class="text-find-our">
+                            With an AI-based integrated platform to collect, monitor, and analyze various data in order to better tracking and monitoring activities. We aim to motivate a change of behaviour for the users in a fun yet rewarding way. 
+                        </p>
+                        <div>
+                            <a href="#">
+                                <span class="text-link-header">Find Out How</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-4 m-2 box-topbottomleft-radius mobile-find-our-width m-0 p-0" id="sectionOne">
+                        <h4 class="h4 title-find-our m-0 cursor-active">Monitoring & Tracking</h4>
+                    </div>
+                    <div class="accordion-active box-topbottomleft-radius mobile-find-our-width p-4 m-2 mobile-padding-x d-none" id="sectionThree">
+                        <h4 class="h4 title-find-our color-green">Monitoring & Tracking</h4>
                         <p>
                             With an AI-based integrated platform to collect, monitor, and analyze various data in order to better tracking and monitoring activities. We aim to motivate a change of behaviour for the users in a fun yet rewarding way. 
                         </p>
@@ -240,20 +307,12 @@
                             </a>
                         </div>
                     </div>
-                    <div id="sectionThree" class="p-4 m-2 rounded-3 mobile-padding-x">
-                        <h4 class="h4">Monitoring & Tracking</h4>
-                        <p>
-                            With an AI-based integrated platform to collect, monitor, and analyze various data in order to better tracking and monitoring activities. We aim to motivate a change of behaviour for the users in a fun yet rewarding way. 
-                        </p>
-                        <div>
-                            <a href="#">
-                                <span class="text-link-header">Find Out How</span>
-                            </a>
-                        </div>
+                    <div class="p-4 m-2 box-topbottomleft-radius mobile-find-our-width m-0 p-0" id="sectionOne">
+                        <h4 class="h4 title-find-our m-0 cursor-active">Prediction & Machine Learning</h4>
                     </div>
-                    <div id="sectionFour" class="p-4 m-2 rounded-3  mobile-padding-x">
-                        <h4 class="h4">Prediction & Machine Learning</h4>
-                        <p>
+                    <div class="accordion-active box-topbottomleft-radius mobile-find-our-width p-4 m-2 mobile-padding-x d-none" id="sectionFour" >
+                        <h4 class="h4 title-find-our color-green">Prediction & Machine Learning</h4>
+                        <p class="mb-2">
                             With an AI-based integrated platform to collect, monitor, and analyze various data in order to better tracking and monitoring activities. We aim to motivate a change of behaviour for the users in a fun yet rewarding way. 
                         </p>
                         <div>
@@ -339,7 +398,9 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-2 col-sm-12 mobile-padding-x mobile-padding-y">
-                    <h6 class="h5 title-footer mb-4">Service</h6>
+                    <h6 class="h5 title-footer mb-4">
+                        Service
+                    </h6>
                     <ul>
                         <li>Environment</li>
                         <li>People</li>
