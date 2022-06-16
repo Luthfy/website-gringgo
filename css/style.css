@@ -28,8 +28,23 @@
         width: 100%;
     }
 
+    #visimisi {
+        padding-top: 1rem !important;
+    }
+
+
     #profile {
-        min-height: 100vh !important;
+        padding-top: 1rem !important;
+    }
+
+    #profile .container .row :nth-child(1) {
+        order: 2;
+    }
+    #profile .container .row :nth-child(2) {
+        order: 1;
+    }
+    #profile .container .row :nth-child(3) {
+        order: 3;
     }
 
     .img-aboutus {
@@ -42,9 +57,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#header {
-
-}
 
 #bigBanner {
     margin-bottom: 3rem;
@@ -86,17 +98,17 @@ body {
         max-height: 400px;
     }
 
-#visionAndMission {
-    padding-top: 8rem !important;
-    padding-bottom: 8rem !important;
+#visimisi {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
 }
 
-    #visionAndMission .cards {
+    #visimisi .cards {
         margin-top: 2rem !important;
         margin-bottom: 4rem !important;
     }
 
-    #visionAndMission .cards .card {
+    #visimisi .cards .card {
         width: 18rem;    
         padding: 0.4rem;
         background: #FFFFFF;
@@ -106,8 +118,8 @@ body {
         margin: 0.8rem;
     }
 
-#sponsor {
-    min-height: 90vh !important;
+#sponsor .image-sponsor {
+    margin: 1.5rem !important;
 }
 
 #howItWork {
