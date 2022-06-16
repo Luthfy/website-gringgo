@@ -37,6 +37,7 @@
         width: 100% !important;
     }
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -129,6 +130,16 @@ body {
     padding-bottom: 2rem;
 }
 
+    #product .product:hover .img-product {
+        display: none;
+    }
+
+    #product .product:hover .img-product-box {
+        min-height: 560px;
+        display: block;
+        animation: fadein 2s;
+    }
+
     #product .img-product {
         width: 100%;
     }
@@ -137,15 +148,10 @@ body {
         display: none;
     }
 
-    #product .img-product:hover ~ .img-product-box {
-        display: block;
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    }
-
     #product .img-product-box {
         display: none;
         width: 100%;
-        /* height: 560px; */
+        height: 560px;
         border-radius: 20px;
         background-color: #FFC143;
         border-left: 22px solid #1C957F;
@@ -353,72 +359,90 @@ a {
     cursor: pointer;
 }
 
-.product-2:hover {
-    display: block;
-}
-
 #sectionOne {
     display: block;
 }
 
-    #sectionOne:hover {
-        display: none;
-    }
+#sectionOne:hover #sectionOneTitle {
+    display: none;
+}
+
+#sectionOne:hover #sectionOneShadow {
+    display: block;
+    animation: fadein 1s;
+}
 
 #sectionOneShadow {
     display: none;
 }
 
-    #sectionOne:hover ~ #sectionOneShadow {
-        display: block;
-    }
-
 #sectionTwo {
     display: block;
+}
+
+#sectionTwo:hover #sectionTwoTitle {
+    display: none;
+}
+
+#sectionTwo:hover #sectionTwoShadow {
+    display: block;
+    animation: fadein 1s;
 }
 
 #sectionTwoShadow {
     display: none;
 }
 
-#sectionTwo:hover {
+#sectionThree {
+    display: block;
+}
+
+#sectionThree:hover #sectionThreeTitle {
     display: none;
 }
 
-#sectionTwo:hover ~ #sectionTwoShadow {
+#sectionThree:hover #sectionThreeShadow {
     display: block;
-}
-
-#sectionThree {
-    display: block;
+    animation: fadein 1s;
 }
 
 #sectionThreeShadow {
     display: none;
 }
 
-#sectionThree:hover {
+#sectionFour {
+    display: block;
+}
+
+#sectionFour:hover #sectionFourTitle {
     display: none;
 }
 
-#sectionThree:hover ~ #sectionThreeShadow {
+#sectionFour:hover #sectionFourShadow {
     display: block;
-}
-
-#sectionFour {
-    display: block;
+    animation: fadein 1s;
 }
 
 #sectionFourShadow {
     display: none;
 }
 
-#sectionFour:hover {
-    display: none;
-}
+footer {
+    color: #FFFFFF;
+    background-color: #232323;
+  }
 
-#sectionFour:hover ~ #sectionFourShadow {
-    display: block;
+
+  /* ANIMATION */
+  @keyframes fadein {
+    from { 
+        opacity: 0; 
+        transform: translatey(-10px);
+    }
+    to   { 
+        opacity: 1; 
+        transform: translatey(0px);
+    }
 }
 
 
