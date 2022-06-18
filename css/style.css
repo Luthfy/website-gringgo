@@ -21,7 +21,9 @@
         width: 80% !important;
     }
 
-    .mobile-find-our-width {
+    #howItWork {
+        padding-top: 1rem !important;
+        min-height: 100vh;
     }
 
     #project .img-project {
@@ -30,6 +32,74 @@
 
     #visimisi {
         padding-top: 1rem !important;
+    }
+
+    #howItWork {
+        padding-top: 1rem !important;
+    }
+
+    #howItWork .container .row :nth-child(1) {
+        order: 1;
+    }
+
+    #howItWork .container .row :nth-child(2) {
+        order: 2;
+    }
+
+    #howItWork .container .row :nth-child(3) {
+        order: 3;
+    }
+
+    #howItWork .container .row :nth-child(4) {
+        order: 4;
+    }
+
+    #howItWork .container .row :nth-child(6) {
+        order: 5;
+    }
+
+    #howItWork .container .row :nth-child(5) {
+        order: 6;
+    }
+
+    #project .content {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem;
+    }
+
+    #project .navigation-banner {
+        display: block;
+        position: static;
+    }
+
+    #project .navigation-banner .navigation-summary {
+        display: none;
+    }
+
+    #project .navigation-banner .navigation-control {
+        position: static !important;
+        display: block;
+        margin-top: 2rem;
+    }
+
+    #project .image-container {
+        width: 100%;
+        position: static;
+        height: 250px !important;
+
+    }
+
+    /* #project .image-container {
+        width: 100%;
+        max-height: 450px !important;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    } */
+
+    #project .image-container .img-project {
+        width: 100%;
+        height: inherit;
     }
 
 
@@ -123,17 +193,94 @@ body {
 }
 
 #howItWork {
-    padding-top: 6rem;
-    min-height: 200vh !important;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    min-height: 200vh;
 }
 
 #project {
     min-height: 30vh !important;
-    padding-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
-    #project .img-project {
-        /* height: 400px !important; */
+    #project .content {
+        padding-left: 6rem;
+        padding-right: 1.5rem;
+    }
+
+
+    #project .image-container {
+        width: 100%;
+        height: 450px;
+        max-height: 450px !important;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    #project .image-container .img-project {
+        width: 100%;
+    }
+
+    #project .navigation-banner { 
+        position: relative;
+    }
+
+    #project .navigation-banner .navigation-control {
+        position: absolute;
+        left: -50px;
+        bottom: 0px;
+    }
+    
+    #project .navigation-summary {
+        background-color: #1C957F;
+        color: white;
+        border-top-left-radius: 10px;
+        min-width: 80px;
+        padding: 4px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    #project .navigation-summary .current-position {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    #project .navigation-summary .seperate-position {
+        font-weight: 400;
+        color: #ffffffa0;
+    }
+
+    #project .navigation-summary .total-position {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #ffffffa0;
+    }
+
+    .btn-navigation {
+        width: 50px;
+        height: 50px;
+        background-color: #1C957F;
+        color: #FFFFFF;
+        border: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .btn-previous {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .btn-next {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        background-color: #FFFFFF;
+        border: 3px #1C957F solid;
+        border-left: 0px;
+        color: #232323;
     }
 
 #product {
@@ -149,7 +296,7 @@ body {
     #product .product:hover .img-product-box {
         min-height: 560px;
         display: block;
-        animation: fadein 2s;
+        animation: fadein 1s;
     }
 
     #product .img-product {
@@ -448,7 +595,7 @@ footer {
   /* ANIMATION */
   @keyframes fadein {
     from { 
-        opacity: 0; 
+        opacity: 0.5; 
         transform: translatey(-10px);
     }
     to   { 
