@@ -89,19 +89,10 @@
 
     }
 
-    /* #project .image-container {
-        width: 100%;
-        max-height: 450px !important;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-    } */
-
     #project .image-container .img-project {
         width: 100%;
         height: inherit;
     }
-
 
     #profile {
         padding-top: 1rem !important;
@@ -121,6 +112,11 @@
         min-width: 0px !important;
         width: 100% !important;
     }
+
+    .image_banner {
+        width: 100%;
+        padding-top: 100px !important;
+    }
 }
 
 body {
@@ -134,6 +130,17 @@ body {
 
     #bigBanner .big-banner {
         width: 100%;
+    }
+
+    .big_banner {
+        width: 100%;
+        max-height: 75vh;
+        overflow: hidden;
+    }
+
+    .image_banner {
+        width: 100%;
+        margin-top: -160px;
     }
 
 #ilustrasi {
