@@ -1,0 +1,258 @@
+:root {
+    --primary-color: #18A48D;
+    --active-color: #1C957F;
+
+    --text-color-white : #FFFFFF;
+    --text-color-secondary : #232323;
+
+    --background-button-light: #32BFA8;
+    --background-button-dark: #18A48D;
+
+    --background-primary: #FFFFFF;
+    --background-secondary: #F4F4F4;
+    --background-dark: #232323;
+}
+
+body {
+    background-image: url('../img/background-vector.svg');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+
+header nav {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+    header nav .right {
+        padding-top: 1.4rem;
+    }
+
+    header nav .right .menu-item {
+        text-decoration: none;
+        color: var(--text-color-secondary);
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        padding: 1rem 1.5rem;
+    }
+
+    header nav .right .menu-item:active {
+        text-decoration: none;
+        color: var(--active-color);
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        padding: 1rem 1.5rem;
+    }
+
+.container {
+    margin: auto;
+    max-width: 1440px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.line-on-top-title {
+    text-align: center;
+    height: 4px; 
+    width: 4%; 
+    background-color: var(--background-dark);
+}
+
+.head-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+
+section .img-section {
+    height: 428px;
+    margin: 8rem 0 6rem 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+    section .img-section img {
+        width: 100%;
+    }
+
+section .img-section-header {
+    height: 450px !important;
+    overflow: hidden;
+}
+
+    section .img-section-header img {
+        width: 100%;
+    }
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 8px;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    background: #FFFFFF;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+.input-form {
+    min-height: 40px;
+    width: 98%;
+    border-radius: 8px;
+    border: none !important;
+    background-color: #23232340 !important;
+    padding: 0.5rem;
+}
+
+.box-shadow-green {
+    box-shadow: -4px 8px 70px var(--background-dark);
+}
+
+.box-shadow-dark {
+    box-shadow: 0px 0px 20px #23232314 !important;
+}
+
+.section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    line-height: 160%;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 2rem;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.m-4 {
+    margin: 4rem;
+}
+
+/* FOOTER SETUP */
+
+footer {
+    background-color: var(--background-secondary);
+    padding-top: 32px;
+    height: 358px;
+}
+
+    footer .footer-contain {
+        height: 280px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .footer-contain .title {
+        color: var(--active-color);
+    }
+
+    footer .footer-contain .menu {
+        padding-left: 0;
+        padding-top: 8px;
+        list-style: none;
+    }
+
+    footer .footer-contain .menu li {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: var(--text-color-secondary);
+        margin: 16px 0;
+    }
+
+    footer .footer-contain div:first-child {
+        flex: 2;
+    }
+
+    footer .footer-contain div {
+        margin: 1px 1px;
+        padding: 16px;
+        flex: 1;
+    }
+
+    footer .footer-contain div img {
+        height: 48px;
+        margin-bottom: 8px;
+    }
+
+    footer .footer-contain div .icon-sosmed {
+        height: 32px;
+        margin-left: 8px;
+    }
+
+    footer .small-footer {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 0;
+    }
+/* END FOOTER SETUP */

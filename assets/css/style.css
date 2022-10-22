@@ -1,0 +1,190 @@
+
+
+
+
+
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.line-on-top-title {
+    text-align: center;
+    height: 4px; 
+    width: 4%; 
+    background-color: var(--background-dark);
+}
+
+.background-dark {
+    background-color: var(--background-secondary);
+}
+
+.button {
+    padding: 1.2rem 0 !important;
+    border: none !important;
+    border-radius: 10px !important;
+    width: 100%;
+}
+
+.button-background-light {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text-color-white);
+    background-color: var(--background-button-light) !important;
+}
+
+
+#bigBanner {
+    padding: 8rem 0;
+}
+
+    #bigBanner .title {
+        font-family: 'Inter', sans-serif;
+        font-size: 60px;
+        font-weight: 800;
+        text-align: left;
+        line-height: 130%
+    }
+
+    #bigBanner .subtitle {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        text-align: left;
+    }
+
+#cardCounter .card {
+    width: 100%;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: -4px 8px 70px rgba(24, 164, 141, 0.15);
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+    #cardCounter .card .title {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 60px;
+        text-align: center;
+        color: #58CCB9;
+        margin-bottom: 20px !important;
+    }
+
+    #cardCounter .card .subtitle {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        margin: 0;
+    }
+
+#measureImpact {
+    padding-bottom: 100px;
+}
+
+#measureImpact .title {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+#measureImpact .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    line-height: 160%;
+}
+
+#measureImpact .item {
+    padding: 28px;
+}
+
+#measureImpact .item .title {
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: var(--text-color-secondary);
+}
+
+#measureImpact .item .subtitle {
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--text-color-secondary);
+}
+
+#measureImpact .item .button-learn-more {
+    background-color: var(--background-button-dark);
+    border: none;
+    padding: 0.6rem 0.8rem;
+    color: var(--text-color-white);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 120%;
+    letter-spacing: 0.25em;
+    cursor: pointer;
+}
+
+#howCanWeHelp .title {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#howCanWeHelp .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 160%;
+}
+
+#howCanWeHelp .form {
+    width: 60%;
+    margin: auto;
+    padding-top: 24px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+    #howCanWeHelp .form .input-form {
+        min-height: 40px;
+        width: 98%;
+        border-radius: 8px;
+        border: none !important;
+        background-color: #23232340 !important;
+        padding: 0.5rem;
+    }
+
+    #howCanWeHelp .form .button {
+        padding: 1.2rem 0 !important;
+        border: none !important;
+        border-radius: 10px !important;
+        width: 100%;
+    }
