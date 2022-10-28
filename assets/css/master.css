@@ -58,6 +58,10 @@ header nav {
     justify-content: space-between;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .line-on-top-title {
     text-align: center;
     height: 4px; 

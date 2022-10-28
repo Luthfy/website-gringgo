@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRINGGO</title>
 
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/master.css">
-    <link rel="stylesheet" href="assets/css/text-styling.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/master.css">
+    <link rel="stylesheet" href="../assets/css/text-styling.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
         <div class="container">
             <nav class="d-flex justify-content-between">
                 <div class="left">
-                    <img src="assets/img/logo-gringgo.png" alt="logo_gringgi">
+                    <img src="../assets/img/logo-gringgo.png" alt="logo_gringgi">
                 </div>
                 <div class="right">
                     <a href="index.html" class="menu-item">
@@ -37,7 +37,7 @@
                     <a href="products.html" class="menu-item">
                         <span>Services</span>
                     </a>
-                    <a href="contactus.html" class="menu-item">
+                    <a href="contactus.html" class="menu-item text-active">
                         <span>Contact Us</span>
                     </a>
                 </div>
@@ -47,35 +47,19 @@
 
     <section class="section_banner">
         <div class="container">
-            <div class="d-flex mb-4" style="padding: 4rem;">
+            <div class="d-flex mb-4">
                 <div class="col">
-                    <h2 class="title">Our Products</h2>
-                    <a href="contactus.html." class="button-learn-more">Contact Us</a>
+                    <h2 class="title">How It Works</h2>
+                    <a href="../contactus.html" class="button-learn-more">Contact Us</a>
                 </div>
                 <div class="col">
-                    <img src="assets/img/lamp.svg" alt="" style="margin-left: 10rem;">
+                    <img src="../assets/img/lamp.svg" alt="" style="margin-left: 10rem;">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section_2_columns_with_image" style="background-color: #FFFADD; padding: 3rem; padding: 3rem; height: 400px; overflow: hidden;">
-        <div class="container">
-            <div class="d-flex">
-                <div class="col">
-                    <img src="../assets/img/g-collect.png" alt="" style="width: 90%; height: inherit;">
-                </div>
-                <div class="col content-text">
-                    <hr class="line-on-top-title" style="float: left;">
-                    <h4 class="title mt-2">G-Collect is an easy way to collect data</h4>
-                    <p class="description">G-Collect is integrated into the Gringgo platform database to make it easy for you to find any type of data you need.</p>
-                    <a href="#" class="button-learn-more">Collapse</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section_2_columns_with_image" style="background-color: #FBE2EB; padding: 3rem; padding: 3rem; height: 400px; overflow: hidden;">
+    <section class="section_2_columns_with_image" style="background-color: #FBE2EB; padding: 3rem;">
         <div class="container">
             <div class="d-flex">
                 
@@ -83,6 +67,11 @@
                     <hr class="line-on-top-title" style="float: left;">
                     <h4 class="title mt-2">Create a more sustainable future with SWAI</h4>
                     <p class="description">SWAI is a mobile application that promotes a change of behavior about sustainability and environment awareness.</p>
+                    <p class="description">SWAI utilizes the concept of gamification in order to make it fun to learn about and engage with the importance of recycling, composting, and waste separation.</p>
+                    <p class="description"> All this while giving users basic education about what we should be doing with our waste. It’s available for download in google play (available only in Indonesia).</p>
+                    
+                    <p class="description"><strong>Why Gringgo?</strong></p>
+                    <p class="description">SWAI urges users to collect different necessary data through the utilization of missions (gamification) and the token economy concept (users can collect points and redeem attractive incentives). The app also provides users with educational content regarding waste segregation</p>
                     <a href="#" class="button-learn-more">Collapse</a>
                 </div>
 
@@ -93,29 +82,13 @@
         </div>
     </section>
 
-
-    <section class="section_2_columns_with_image" style="background-color: #D5F9F3; padding: 3rem; height: 400px; overflow: hidden;">
-        <div class="container">
-            <div class="d-flex">
-                <div class="col">
-                    <img src="assets/img/envi.png" alt="" style="width: 90%; height: inherit;">
-                </div>
-                <div class="col content-text">
-                    <hr class="line-on-top-title" style="float: left;">
-                    <h4 class="title mt-2">ENVI is the solution <br> to your sustainability woes</h4>
-                    <p class="description">With ENVI, you can monitor the status of your on the ground operation with just a few clicks and changes. </p>
-                    <a href="#" class="button-learn-more">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+ 
     
     <footer>
         <div class="container">
             <div class="footer-contain">
                 <div>
-                    <img src="assets/img/logo-gringgo.png" alt="">
+                    <img src="../assets/img/logo-gringgo.png" alt="">
                     <p class="font-inter-regular" style="font-size: 16px; line-height: 160%;">
                         Gringgo is home to a new economic model for waste management that puts people and the planet first.
                     </p>
@@ -145,9 +118,9 @@
                 </div>
                 <div>
                     <p class="font-inter-bold title" style="font-size: 18px;">Connect With Us</p>
-                    <img class="icon-sosmed" src="assets/icon/youtube.png" alt="">
-                    <img class="icon-sosmed" src="assets/icon/facebook.png" alt="">
-                    <img class="icon-sosmed" src="assets/icon/instagram.png" alt="">
+                    <img class="icon-sosmed" src="../assets/icon/youtube.png" alt="">
+                    <img class="icon-sosmed" src="../assets/icon/facebook.png" alt="">
+                    <img class="icon-sosmed" src="../assets/icon/instagram.png" alt="">
                 </div>
             </div>
             <div class="small-footer font-inter-regular">
@@ -157,6 +130,6 @@
         </div>
     </footer>
 
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
