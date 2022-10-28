@@ -466,3 +466,33 @@
     text-decoration: none;
     border-radius: 3px;
 }
+
+#ourNumber .title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    color: #58CCB9;
+    margin: 15px;
+}
+
+#ourNumber .subtitle {
+    columns: var(--text-color-secondary);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 0.01em;
+}
+
+#ourNumber .description {
+    columns: var(--text-color-secondary);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 0.01em;
+    line-height: 19px;
+}
