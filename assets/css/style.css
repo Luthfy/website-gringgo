@@ -1,3 +1,94 @@
+@media only screen and (min-width: 250px) and (max-width: 600px) {
+    /* Untuk Menghilangkan Di Mobile */
+    .d-none-mobile {
+        display: none !important;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container nav {
+        padding: 20px;
+    }
+
+    .section_banner {
+        min-height: 70vh;
+        padding: 10px;
+    }
+
+    section .img-section-header {
+        height: inherit !important;
+    }
+
+    section .img-section {
+        height: inherit !important;
+    }
+
+    #cardCounter .card {
+        display: block !important;
+        width: 90vw !important;
+        margin: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    #bigBanner {
+        width: 100vw !important;
+        min-height: 20px !important;
+        padding: 20px !important;
+        padding-bottom: 80px !important;
+    }
+
+    #bigBanner .title {
+        font-size: 3rem !important;
+    }
+
+    .footer-mobile {
+        padding: 20px;
+        background-color: var(--background-secondary);
+    }
+
+    .footer-mobile .title {
+        color: var(--active-color);
+    }
+
+    .footer-mobile .menu {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .footer-mobile .menu li {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: var(--text-color-secondary);
+        margin: 16px 0;
+    }
+
+    .small-footer {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 600px)
+    and (max-width: 1300px) {
+    /* Untuk Menghilangkan Di Tab */
+    .d-none-ipad {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (min-width: 1300px) {
+    .d-none-desktop {
+        display: none !important;
+        margin: 0;
+        padding: 0;
+    }
+}
+
 #creatingOpurtiny .card {
     padding-top: 50px;
     height: 280px;

@@ -24,11 +24,11 @@
                 <div class="left">
                     <img src="assets/img/logo-gringgo.png" alt="logo_gringgi">
                 </div>
-                <div class="right">
-                    <a href="index.html" class="menu-item text-active">
+                <div class="right d-none-mobile">
+                    <a href="index.html" class="menu-item">
                         <span>Home</span>
                     </a>
-                    <a href="about.html" class="menu-item">
+                    <a href="about.html" class="menu-item text-active">
                         <span>About Us</span>
                     </a>
                     <a href="howitworks.html" class="menu-item">
@@ -42,23 +42,6 @@
                     </a>
                 </div>
             </nav>
-            <div class="sidebar">
-                <a href="index.html" class="menu-item">
-                    <span>Home</span>
-                </a>
-                <a href="about.html" class="menu-item">
-                    <span>About Us</span>
-                </a>
-                <a href="howitworks.html" class="menu-item">
-                    <span>How It Works</span>
-                </a>
-                <a href="products.html" class="menu-item">
-                    <span>Services</span>
-                </a>
-                <a href="contactus.html" class="menu-item">
-                    <span>Contact Us</span>
-                </a>
-            </div>
         </div>
     </header>
 
@@ -80,7 +63,7 @@
         </div>
     </section>
 
-    <section id="cardCounter">
+    <section id="cardCounter" class="d-none-mobile">
         <div class="container">
             <div class="card">
                 <div class="col">
@@ -119,6 +102,51 @@
         </div>
     </section>
 
+    <section id="cardCounter" class="d-none-desktop">
+        <div class="container">
+            <div class="card">
+                <div class="col">
+                    <h2 class="title number" data-current="0" data-to="30" data-append="K+">
+                        0
+                    </h2>
+                    <h6 class="subtitle">
+                        MANAGED WASTE BY PARTNER
+                    </h6>
+                </div>
+            </div>
+            <div class="card">
+                <div class="col">
+                    <h2 class="title number" data-current="0" data-to="200" data-append="+">
+                        0
+                    </h2>
+                    <h6 class="subtitle">
+                        LOCATIONS REACHED
+                    </h6>
+                </div>
+            </div>
+            <div class="card">
+                <div class="col">
+                    <h2 class="title number" data-current="0" data-to="25" data-append="K+">
+                        0
+                    </h2>
+                    <h6 class="subtitle">
+                        REGISTERED USER
+                    </h6>
+                </div>
+            </div>
+            <div class="card">
+                <div class="col">
+                    <h2 class="title number" data-current="0" data-to="30" data-append="%">
+                        0
+                    </h2>
+                    <h6 class="subtitle">
+                        LIVELIHOOD IMPROVEMENTS
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section>
         <div class="img-section">
             <img src="assets/img/image-home-1.png" alt="image_home_1">
@@ -132,7 +160,34 @@
             <h3 class="title">Integrated Platform To Measure Impact</h3>
             <p class="subtitle">With an AI-based integrated platform to collect, monitor, and analyze various data in order to better tracking and monitoring activities. We aim to motivate a change of behaviour for the users in a fun yet rewarding way.</p>
             <div class="mb-2"></div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between d-none-mobile">
+                <div class="col">
+                    <div class="item">
+                        <img src="assets/icon/data_collection_icon.png" alt="" srcset="">
+                        <h3 class="title">Data Collection</h3>
+                        <p class="subtitle">We created a tool to assist in the digitization of data gathering methods that may be used in any project.</p>
+                        <a href="products/g-collect.html" class="button-learn-more">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item">
+                        <img src="assets/icon/monitor_tracking_icon.png" alt="" srcset="">
+                        <h3 class="title">Monitoring & Tracking</h3>
+                        <p class="subtitle">Our set of tools helps with on-the-ground monitoring and activity tracking to ensure that everything runs well.</p>
+                        <a href="products/more-sustainable.html" class="button-learn-more">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item">
+                        <img src="assets/icon/prediction_icon.png" alt="" srcset="">
+                        <h3 class="title">Prediction & Machine Learning</h3>
+                        <p class="subtitle">To improve efficiency, we use machine learning to assist with data analysis and prediction.</p>
+                        <a href="products/envi-is-solution.html" class="button-learn-more">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-none-desktop">
                 <div class="col">
                     <div class="item">
                         <img src="assets/icon/data_collection_icon.png" alt="" srcset="">
@@ -169,7 +224,7 @@
             <h3 class="title">How Can We Help</h3>
             <p class="subtitle">Drop us a message, and let's get connected</p>            
 
-            <form action="" method="post" class="form">
+            <form action="" method="post" class="form d-none-mobile">
                 <div class="d-flex justify-content-between">
                     <div class="col">
                         <input type="text" name="" id="" class="input-form" placeholder="Your name...">
@@ -203,11 +258,39 @@
                 </div>
 
             </form>
+
+            <form action="" method="post" class="d-none-desktop" style="margin: 14px; margin-right: 22px;">
+                <div class="col">
+                    <input type="text" name="" id="" class="input-form" placeholder="Your name...">
+                </div>
+                <div class="col">
+                    <input type="text" name="" id="" class="input-form" placeholder="Your email address...">
+                </div>
+                <div class="d-flex justify-content-between">
+                </div>
+                <div class="col">
+                    <input type="text" name="" id="" class="input-form" placeholder="Your phone number...">
+                </div>
+                <div class="col">
+                    <input type="text" name="" id="" class="input-form" placeholder="Your company...">
+                </div>
+                <div class="col">
+                    <input type="text" name="" id="" class="input-form" placeholder="Subject">
+                </div>
+                <div class="col">
+                    <textarea name="" id="" cols="30" rows="10" class="input-form" placeholder="Message"></textarea>
+                </div>
+                <div class="col" style="margin-right: -10px;">
+                    <input type="submit" class="button button-background-light" value="Get In Touch">
+                </div>
+                
+
+            </form>
         </div>
     </section>
 
     <footer>
-        <div class="container">
+        <div class="container d-none-mobile">
             <div class="footer-contain">
                 <div>
                     <img src="assets/img/logo-gringgo.png" alt="">
@@ -243,6 +326,52 @@
                     <img class="icon-sosmed" src="assets/icon/youtube.png" alt="">
                     <img class="icon-sosmed" src="assets/icon/facebook.png" alt="">
                     <img class="icon-sosmed" src="assets/icon/instagram.png" alt="">
+                </div>
+            </div>
+            <div class="small-footer font-inter-regular">
+                <span>Gringgo©  2022</span>
+                <span> All Right Reserved</span>
+            </div>
+        </div>
+        <div class="container d-none-desktop">
+            <div class="footer-mobile">
+                <div>
+                    <img src="assets/img/logo-gringgo.png" alt="">
+                    <p class="font-inter-regular" style="font-size: 16px; line-height: 160%;">
+                        Gringgo is home to a new economic model for waste management that puts people and the planet first.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="font-inter-bold title" style="font-size: 18px;">Company</p>
+                        <ul class="menu">
+                            <li>About</li>
+                            <li>Contact Us</li>
+                            <li>Support Us</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="font-inter-bold title" style="font-size: 18px;">Service</p>
+                        <ul class="menu">
+                            <li>Environtment</li>
+                            <li>People</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="font-inter-bold title" style="font-size: 18px;">Legal</p>
+                        <ul class="menu">
+                            <li>Privacy Policy</li>
+                            <li>Terms Conditions</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="font-inter-bold title" style="font-size: 18px;">Connect Us</p>
+                        <img class="icon-sosmed" src="assets/icon/youtube.png" alt="">
+                        <img class="icon-sosmed" src="assets/icon/facebook.png" alt="">
+                        <img class="icon-sosmed" src="assets/icon/instagram.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="small-footer font-inter-regular">
