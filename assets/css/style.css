@@ -9,6 +9,14 @@
         margin: auto;
     }
 
+    #bigBanner {
+        width: 80vw !important;
+        overflow: hidden;
+        padding: none;
+        margin: none;
+    }
+
+
     .container nav {
         padding: 20px;
     }
@@ -460,6 +468,7 @@
     height: 200px;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    object-fit: contain;
 }
 
     #ourTeam .title {
