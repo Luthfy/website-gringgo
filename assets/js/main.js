@@ -5,7 +5,15 @@ window.onload = () => {
             autoCounterInterval();
         }
     }, 100);
-    
+}
+
+function toggleMenu()
+{
+    if (document.getElementById("menuMobile").classList.toggle("d-none")) {
+        document.getElementById("menuMobile").classList.add("d-none")
+    } else {
+        document.getElementById("menuMobile").classList.remove("d-none")
+    }
 }
 
 function autoCounterInterval()

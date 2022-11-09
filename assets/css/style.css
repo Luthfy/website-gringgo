@@ -634,3 +634,28 @@
     letter-spacing: 0.01em;
     line-height: 19px;
 }
+
+.menu-mobile {
+    padding-top: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    float: right;
+    background: #18A48D;
+    height: 100vh;
+    width: 80vw;
+}
+
+.menu-mobile .menu-item {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--text-color-white);
+
+}
