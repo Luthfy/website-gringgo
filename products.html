@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="assets/css/master.css">
     <link rel="stylesheet" href="assets/css/text-styling.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .content-large {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 
@@ -49,7 +55,7 @@
         <div class="container">
             <div class="d-flex mb-4 p-4">
                 <div class="col">
-                    <h2 class="title">Our Products</h2>
+                    <h2 class="title text-left">Our Products</h2>
                     <a href="contactus.html" class="button-learn-more">Contact Us</a>
                 </div>
                 <div class="col d-none-mobile">
@@ -59,7 +65,7 @@
         </div>
     </section>
 
-    <section class="section_2_columns_with_image d-none-mobile" style="background-color: #FFFADD; padding: 3rem; padding: 3rem; height: 400px; overflow: hidden;">
+    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #FFFADD; padding: 3rem; padding: 3rem; height: 400px; overflow: hidden;">
         <div class="container">
             <div class="d-flex">
                 <div class="col">
@@ -67,9 +73,19 @@
                 </div>
                 <div class="col content-text">
                     <hr class="line-on-top-title" style="float: left;">
-                    <h4 class="title mt-2">G-Collect is an easy way to collect data</h4>
-                    <p class="description">G-Collect is integrated into the Gringgo platform database to make it easy for you to find any type of data you need.</p>
-                    <a href="#" class="button-learn-more">Collapse</a>
+                    <h4 class="title text-left mt-2">G-Collect is an easy way to collect data</h4>
+                    <div class="content-small">
+                        <p class="description">G-Collect is integrated into the Gringgo platform database to make it easy for you to find any type of data you need.</p>
+                    </div>
+                    <div class="content-large">
+                        <p class="description">G-Collect is integrated into the Gringgo platform database to make it easy for you to find any type of data you need. We can even help you analyze the data so you'll have a better understanding of the current situation. With G-Collect, we digitize your data collection and analysis process, so all of your sustainability efforts will be more effective and efficient.</p>
+                    
+                        <p class="description"><strong>Helps with Data Analysis and Prediction to Increase Efficiency</strong></p>
+                        <p class="description">G-Collect is a data collection tool that helps you make better decisions. We use machine learning to help analyze your data and predict future outcomes. Eliminate guesswork by focusing on what matters with G-Collect.</p>
+                        <p class="description"><strong>Why Gringgo?</strong></p>
+                        <p class="description">The ability to gather data easily and the ability to analyze the data properly is the key to achieving better judgment of the existing situation. Above all, with G-Collect, we digitize data collection activity and help users analyze their data so they can focus on what matters.</p>
+                    </div>
+                    <a href="javascript:void(0)" class="button-learn-more" onclick="slideDown(0)">Collapse</a>
                 </div>
             </div>
         </div>
@@ -83,21 +99,34 @@
                 </div>
                 <div class="col content-text">
                     <!-- <hr class="line-on-top-title" style="float: left; border: none;"> -->
-                    <h4 class="title mt-2" style="font-family: 'Inter';font-style: normal;font-weight: 800;font-size: 40px;margin-top: 50px;margin-bottom: 20px;color: #232323;">G-Collect is an easy way to collect data</h4>
+                    <h4 class="title text-left mt-2" style="font-family: 'Inter';font-style: normal;font-weight: 800;font-size: 40px;margin-top: 50px;margin-bottom: 20px;color: #232323;">G-Collect is an easy way to collect data</h4>
                     <p class="description" style="font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 20px;line-height: 160%;color: #232323;">G-Collect is integrated into the Gringgo platform database to make it easy for you to find any type of data you need.</p>
+                    <p class="description">SWAI utilizes the concept of gamification in order to make it fun to learn about and engage with the importance of recycling, composting, and waste separation.</p>
+                    <p class="description"> All this while giving users basic education about what we should be doing with our waste. It’s available for download in google play (available only in Indonesia).</p>
+                    <p class="description"><strong>Why Gringgo?</strong></p>
+                    <p class="description">SWAI urges users to collect different necessary data through the utilization of missions (gamification) and the token economy concept (users can collect points and redeem attractive incentives). The app also provides users with educational content regarding waste segregation</p>
                 </div>
             </div>
     </section>
 
-    <section class="section_2_columns_with_image d-none-mobile" style="background-color: #FBE2EB; padding: 3rem; padding: 3rem; height: 400px; overflow: hidden;">
+    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #FBE2EB; padding: 3rem; padding: 3rem; height: 400px; overflow: hidden;">
         <div class="container">
             <div class="d-flex">
                 
                 <div class="col content-text">
                     <hr class="line-on-top-title" style="float: left;">
-                    <h4 class="title mt-2">Create a more sustainable future with SWAI</h4>
-                    <p class="description">SWAI is a mobile application that promotes a change of behavior about sustainability and environment awareness.</p>
-                    <a href="#" class="button-learn-more">Collapse</a>
+                    <h4 class="title text-left mt-2">Create a more sustainable future with SWAI</h4>
+                    <div class="content-small">
+                        <p class="description">SWAI utilizes the concept of gamification in order to make it fun to learn about and engage with the importance of recycling, composting, and waste separation.</p>
+                    </div>
+                    <div class="content-large">
+                        <p class="description" style="font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 20px;line-height: 160%;color: #232323;">G-Collect is integrated into the Gringgo platform database to make it easy for you to find any type of data you need.</p>
+                        <p class="description">SWAI utilizes the concept of gamification in order to make it fun to learn about and engage with the importance of recycling, composting, and waste separation.</p>
+                        <p class="description"> All this while giving users basic education about what we should be doing with our waste. It’s available for download in google play (available only in Indonesia).</p>
+                        <p class="description"><strong>Why Gringgo?</strong></p>
+                        <p class="description">SWAI urges users to collect different necessary data through the utilization of missions (gamification) and the token economy concept (users can collect points and redeem attractive incentives). The app also provides users with educational content regarding waste segregation</p>
+                    </div>
+                    <a href="javascript:void(0)" class="button-learn-more" onclick="slideDown(1)">Collapse</a>
                 </div>
 
                 <div class="col">
@@ -115,7 +144,7 @@
                 </div>
                 <div class="col content-text">
                     <!-- <hr class="line-on-top-title" style="float: left; border: none;"> -->
-                    <h4 class="title mt-2" style="font-family: 'Inter';font-style: normal;font-weight: 800;font-size: 40px;margin-top: 50px;margin-bottom: 20px;color: #232323;">Create a more sustainable future with SWAI</h4>
+                    <h4 class="title text-left mt-2" style="font-family: 'Inter';font-style: normal;font-weight: 800;font-size: 40px;margin-top: 50px;margin-bottom: 20px;color: #232323;">Create a more sustainable future with SWAI</h4>
                     <p class="description" style="font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 20px;line-height: 160%;color: #232323;">
                         SWAI is a mobile application that promotes a change of behavior about sustainability and environment awareness.    
                     </p>
@@ -123,7 +152,7 @@
             </div>
     </section>
 
-    <section class="section_2_columns_with_image d-none-mobile" style="background-color: #D5F9F3; padding: 3rem; height: 400px; overflow: hidden;">
+    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #D5F9F3; padding: 3rem; height: 400px; overflow: hidden;">
         <div class="container">
             <div class="d-flex">
                 <div class="col">
@@ -131,9 +160,19 @@
                 </div>
                 <div class="col content-text">
                     <hr class="line-on-top-title" style="float: left;">
-                    <h4 class="title mt-2">ENVI is the solution <br> to your sustainability woes</h4>
-                    <p class="description">With ENVI, you can monitor the status of your on the ground operation with just a few clicks and changes. </p>
-                    <a href="#" class="button-learn-more">Learn More</a>
+                    <h4 class="title text-left mt-2">ENVI is the solution <br> to your sustainability woes</h4>
+                    <div class="content-small">
+                        <p class="description">With ENVI, you can monitor the status of your on the ground operation with just a few clicks and changes. You can also track your progress on milestones and goals to help you measure impact and improve efficiency. ENVI makes sustainability easy.</p>
+                    </div>
+                    <div class="content-large">
+                        <p class="description">With ENVI, you can monitor the status of your on the ground operation with just a few clicks and changes. You can also track your progress on milestones and goals to help you measure impact and improve efficiency. ENVI makes sustainability easy.</p>
+
+                        <p class="description"><strong>Reduce Waste and Increase Transparency</strong></p>
+                        <p class="description">With ENVI, you can monitor the status of your on the ground operation with just a few clicks and changes. You can also track your progress on milestones and goals to help you measure impact and improve efficiency. ENVI makes sustainability easy.</p>
+                        <p class="description"><strong>Why Gringgo? </strong></p>
+                        <p class="description">With Gringgo’s ENVI, it becomes easier to collect and process data that will be used for assessing the sustainability of Indonesia. Our web dashboard and mobile application provide a tool that can be easily implemented in any project.</p>
+                    </div>
+                    <a href="javascript:void(0)" class="button-learn-more" onclick="slideDown(2)">Collapse</a>
                 </div>
             </div>
         </div>
@@ -147,7 +186,7 @@
                 </div>
                 <div class="col content-text">
                     <!-- <hr class="line-on-top-title" style="float: left; border: none;"> -->
-                    <h4 class="title mt-2" style="font-family: 'Inter';font-style: normal;font-weight: 800;font-size: 40px;margin-top: 50px;margin-bottom: 20px;color: #232323;">ENVI is the solution <br> to your sustainability woes</h4>
+                    <h4 class="title text-left mt-2" style="font-family: 'Inter';font-style: normal;font-weight: 800;font-size: 40px;margin-top: 50px;margin-bottom: 20px;color: #232323;">ENVI is the solution <br> to your sustainability woes</h4>
                     <p class="description" style="font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 20px;line-height: 160%;color: #232323;">
                         With ENVI, you can monitor the status of your on the ground operation with just a few clicks and changes. 
                     </p>
@@ -248,5 +287,22 @@
     </footer>
 
     <script src="assets/js/main.js"></script>
+
+    <script>
+        function slideDown(ordered)
+        {
+            if (document.getElementsByClassName('slideDown')[ordered].classList.contains('open')) {
+                document.getElementsByClassName('slideDown')[ordered].classList.remove('open');
+                document.getElementsByClassName('slideDown')[ordered].style.height = "400px";
+                document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-large')[0].style.display = "none";
+                document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-small')[0].style.display = "block";
+            } else {
+                document.getElementsByClassName('slideDown')[ordered].classList.add('open');
+                document.getElementsByClassName('slideDown')[ordered].style.height = "800px";
+                document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-large')[0].style.display = "block";
+                document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-small')[0].style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
