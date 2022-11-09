@@ -56,7 +56,7 @@
             <div class="d-flex mb-4 p-4">
                 <div class="col">
                     <h2 class="title text-left">Our Products</h2>
-                    <a href="contactus.html" class="button-learn-more">Contact Us</a>
+                    <a href="contactus.html" class="button-learn-more mb-4">Contact Us</a>
                 </div>
                 <div class="col d-none-mobile">
                     <img src="assets/img/lamp.svg" alt="" style="margin-left: 10rem;">
@@ -85,7 +85,7 @@
                         <p class="description"><strong>Why Gringgo?</strong></p>
                         <p class="description">The ability to gather data easily and the ability to analyze the data properly is the key to achieving better judgment of the existing situation. Above all, with G-Collect, we digitize data collection activity and help users analyze their data so they can focus on what matters.</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more" onclick="slideDown(0)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDown(0)">Collapse</a>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@
                         <p class="description"><strong>Why Gringgo?</strong></p>
                         <p class="description">SWAI urges users to collect different necessary data through the utilization of missions (gamification) and the token economy concept (users can collect points and redeem attractive incentives). The app also provides users with educational content regarding waste segregation</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more" onclick="slideDown(1)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDown(1)">Collapse</a>
                 </div>
 
                 <div class="col">
@@ -172,7 +172,7 @@
                         <p class="description"><strong>Why Gringgo? </strong></p>
                         <p class="description">With Gringgo’s ENVI, it becomes easier to collect and process data that will be used for assessing the sustainability of Indonesia. Our web dashboard and mobile application provide a tool that can be easily implemented in any project.</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more" onclick="slideDown(2)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDown(2)">Collapse</a>
                 </div>
             </div>
         </div>
@@ -291,6 +291,8 @@
     <script>
         function slideDown(ordered)
         {
+            setCondition();
+
             if (document.getElementsByClassName('slideDown')[ordered].classList.contains('open')) {
                 document.getElementsByClassName('slideDown')[ordered].classList.remove('open');
                 document.getElementsByClassName('slideDown')[ordered].style.height = "400px";
@@ -298,10 +300,24 @@
                 document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-small')[0].style.display = "block";
             } else {
                 document.getElementsByClassName('slideDown')[ordered].classList.add('open');
-                document.getElementsByClassName('slideDown')[ordered].style.height = "800px";
+                document.getElementsByClassName('slideDown')[ordered].style.height = "850px";
                 document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-large')[0].style.display = "block";
                 document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-small')[0].style.display = "none";
             }
+        }
+
+        function setCondition()
+        {
+            var slideDown = document.getElementsByClassName('slideDown');
+            [].forEach.call(slideDown, function (it, index) {
+
+                document.getElementsByClassName('slideDown')[index].classList.remove('open');
+                document.getElementsByClassName('slideDown')[index].style.height = "400px";
+
+                document.getElementsByClassName('slideDown')[index].getElementsByClassName('content-large')[0].style.display = "none";
+                document.getElementsByClassName('slideDown')[index].getElementsByClassName('content-small')[0].style.display = "block";
+            });
+
         }
     </script>
 </body>
