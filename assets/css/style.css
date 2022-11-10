@@ -9,13 +9,6 @@
         margin: auto;
     }
 
-    #bigBanner {
-        width: 80vw !important;
-        overflow: hidden;
-        padding: none;
-        margin: none;
-    }
-
     #measureImpact {
         text-align: center !important;
     }
@@ -45,8 +38,28 @@
     }
 
     .section_banner {
-        min-height: 70vh;
+        min-height: 40vh;
         padding: 10px;
+    }
+
+    .button-learn-more {
+        background-color: var(--background-button-dark);
+        border: none;
+        padding: 0.6rem 0.8rem;
+        color: var(--text-color-white);
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 120%;
+        letter-spacing: 0.25em;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    .button-learn-more:hover {
+        background-color: var(--background-button-light);
     }
 
     section .img-section-header {
@@ -65,14 +78,14 @@
     }
 
     #bigBanner {
-        width: 100vw !important;
-        min-height: 20px !important;
-        padding: 20px !important;
-        padding-bottom: 80px !important;
+        width: 80vw !important;
+        overflow: hidden;
+        padding: 10px !important;
+        margin: none !important;
     }
 
     #bigBanner .title {
-        font-size: 3rem !important;
+        font-size: 2.8rem !important;
     }
 
     .footer-mobile {
