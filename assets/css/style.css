@@ -16,6 +16,29 @@
         margin: none;
     }
 
+    #measureImpact {
+        text-align: center !important;
+    }
+
+    #measureImpact .title {
+        text-align: center !important;
+    }
+
+    #measureImpact .subtitle {
+        text-align: center !important;
+    }
+
+    #ourStory .title {
+        text-align: center !important;
+    }
+
+    #ourStory .description {
+        text-align: center !important;
+    }
+
+    .content {
+        text-align: center;
+    }
 
     .container nav {
         padding: 20px;
@@ -641,8 +664,8 @@
     right: 0;
     position: absolute;
     float: right;
-    background: #18A48D;
-    height: 100vh;
+    background: #18a48de9;
+    height: 100vh !important;
     width: 80vw;
 }
 
@@ -657,5 +680,4 @@
     font-weight: 500;
     font-size: 24px;
     color: var(--text-color-white);
-
 }
