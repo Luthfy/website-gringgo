@@ -88,6 +88,14 @@
         font-size: 2.8rem !important;
     }
 
+    .section_banner {
+        width: 94vw !important;
+    }
+
+    section .title {
+        font-size: 2.8rem !important;
+    }
+
     .footer-mobile {
         padding: 20px;
         background-color: var(--background-secondary);
@@ -266,6 +274,10 @@
     text-align: center;
 
     color: #18A48D;
+}
+
+.align-self-center {
+    align-self: center;
 }
 
 .section_2_columns_with_image .col img {
