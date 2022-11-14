@@ -88,7 +88,7 @@
         </div>
     </section>
 
-    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #FFFADD; padding: 3rem; padding: 3rem; height: 400px; overflow: hidden;">
+    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #FFFADD; padding: 3rem; padding: 3rem; min-min-height: 400px; overflow: hidden;">
         <div class="container">
             <div class="d-flex">
                 <div class="col">
@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <section class="d-none-desktop slideDownMobile" style="background-color: #FFFADD; padding: 1rem; height: 750px; overflow: hidden;">
+    <section class="d-none-desktop slideDownMobile" style="background-color: #FFFADD; padding: 1rem; min-min-height: 750px; overflow: hidden;">
         <div class="container">
             <div>
                 <div class="col">
@@ -138,7 +138,7 @@
             </div>
     </section>
 
-    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #FBE2EB; padding: 3rem; padding: 3rem; height: 400px; overflow: hidden;">
+    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #FBE2EB; padding: 3rem; padding: 3rem; min-height: 400px; overflow: hidden;">
         <div class="container">
             <div class="d-flex">
                 
@@ -165,7 +165,7 @@
         </div>
     </section>
 
-    <section class="d-none-desktop slideDownMobile" style="background-color: #FBE2EB; padding: 1rem; height: 750px; overflow: hidden;">
+    <section class="d-none-desktop slideDownMobile" style="background-color: #FBE2EB; padding: 1rem; min-height: 750px; overflow: hidden;">
         <div class="container">
             <div>
                 <div class="col">
@@ -189,7 +189,7 @@
             </div>
     </section>
 
-    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #D5F9F3; padding: 3rem; height: 400px; overflow: hidden;">
+    <section class="section_2_columns_with_image slideDown d-none-mobile" style="background-color: #D5F9F3; padding: 3rem; min-height: 400px; overflow: hidden;">
         <div class="container">
             <div class="d-flex">
                 <div class="col">
@@ -215,7 +215,7 @@
         </div>
     </section>
 
-    <section class="d-none-desktop slideDownMobile" style="background-color: #D5F9F3; padding: 1rem; height: 750px; overflow: hidden;">
+    <section class="d-none-desktop slideDownMobile" style="background-color: #D5F9F3; padding: 1rem; min-height: 750px; overflow: hidden;">
         <div class="container">
             <div>
                 <div class="col">
@@ -375,7 +375,7 @@
             if (document.getElementsByClassName('slideDownMobile')[ordered].classList.contains('open')) {
                 console.log('a')
                 document.getElementsByClassName('slideDownMobile')[ordered].classList.remove('open');
-                document.getElementsByClassName('slideDownMobile')[ordered].style.height = "750px";
+                document.getElementsByClassName('slideDownMobile')[ordered].style.height = "";
                 document.getElementsByClassName('slideDownMobile')[ordered].getElementsByClassName('content-large')[0].style.display = "none";
                 document.getElementsByClassName('slideDownMobile')[ordered].getElementsByClassName('content-small')[0].style.display = "block";
             } else {
@@ -393,7 +393,7 @@
             [].forEach.call(slideDown, function (it, index) {
 
                 // document.getElementsByClassName('slideDownMobile')[index].classList.remove('open');
-                document.getElementsByClassName('slideDownMobile')[index].style.height = "750px";
+                document.getElementsByClassName('slideDownMobile')[index].style.height = "";
 
                 document.getElementsByClassName('slideDownMobile')[index].getElementsByClassName('content-large')[0].style.display = "none";
                 document.getElementsByClassName('slideDownMobile')[index].getElementsByClassName('content-small')[0].style.display = "block";
