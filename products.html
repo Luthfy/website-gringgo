@@ -108,7 +108,7 @@
                         <p class="description"><strong>Why Gringgo?</strong></p>
                         <p class="description">The ability to gather data easily and the ability to analyze the data properly is the key to achieving better judgment of the existing situation. Above all, with G-Collect, we digitize data collection activity and help users analyze their data so they can focus on what matters.</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDown(0)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4 button-desktop" onclick="slideDown(0)">Read More</a>
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@
                         <p class="description"><strong>Why Gringgo?</strong></p>
                         <p class="description">The ability to gather data easily and the ability to analyze the data properly is the key to achieving better judgment of the existing situation. Above all, with G-Collect, we digitize data collection activity and help users analyze their data so they can focus on what matters.</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDownMobile(0)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4 button-mobile" onclick="slideDownMobile(0)">Read More</a>
                 </div>
             </div>
     </section>
@@ -155,7 +155,7 @@
                         <p class="description"><strong>Why Gringgo?</strong></p>
                         <p class="description">SWAI urges users to collect different necessary data through the utilization of missions (gamification) and the token economy concept (users can collect points and redeem attractive incentives). The app also provides users with educational content regarding waste segregation</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDown(1)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4 button-desktop" onclick="slideDown(1)">Read More</a>
                 </div>
 
                 <div class="col">
@@ -184,7 +184,7 @@
                         <p class="description"><strong>Why Gringgo?</strong></p>
                         <p class="description">SWAI urges users to collect different necessary data through the utilization of missions (gamification) and the token economy concept (users can collect points and redeem attractive incentives). The app also provides users with educational content regarding waste segregation</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDownMobile(1)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4 button-mobile" onclick="slideDownMobile(1)">Read More</a>
                 </div>
             </div>
     </section>
@@ -209,7 +209,7 @@
                         <p class="description"><strong>Why Gringgo? </strong></p>
                         <p class="description">With Gringgo’s ENVI, it becomes easier to collect and process data that will be used for assessing the sustainability of Indonesia. Our web dashboard and mobile application provide a tool that can be easily implemented in any project.</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDown(2)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4 button-desktop" onclick="slideDown(2)">Read More</a>
                 </div>
             </div>
         </div>
@@ -235,7 +235,7 @@
                         <p class="description"><strong>Why Gringgo? </strong></p>
                         <p class="description">With Gringgo’s ENVI, it becomes easier to collect and process data that will be used for assessing the sustainability of Indonesia. Our web dashboard and mobile application provide a tool that can be easily implemented in any project.</p>
                     </div>
-                    <a href="javascript:void(0)" class="button-learn-more mb-4" onclick="slideDownMobile(2)">Collapse</a>
+                    <a href="javascript:void(0)" class="button-learn-more mb-4 button-mobile" onclick="slideDownMobile(2)">Read More</a>
                 </div>
             </div>
     </section>
@@ -252,8 +252,12 @@
                 <div>
                     <p class="font-inter-bold title" style="font-size: 18px;">Company</p>
                     <ul class="menu">
-                        <li>About</li>
-                        <li>Contact Us</li>
+                        <li>
+                            <a style="text-decoration: none; color: #232323;" href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none; color: #232323;" href="contactus.html">Contact Us</a>
+                        </li>
                         <li>Support Us</li>
                     </ul>
                 </div>
@@ -296,8 +300,12 @@
                     <div class="col">
                         <p class="font-inter-bold title" style="font-size: 18px;">Company</p>
                         <ul class="menu">
-                            <li>About</li>
-                            <li>Contact Us</li>
+                            <li>
+                                <a style="text-decoration: none; color: #232323;" href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a style="text-decoration: none; color: #232323;" href="contactus.html">Contact Us</a>
+                            </li>
                             <li>Support Us</li>
                         </ul>
                     </div>
@@ -349,6 +357,7 @@
                 console.log('b')
                 document.getElementsByClassName('slideDown')[ordered].classList.add('open');
                 document.getElementsByClassName('slideDown')[ordered].style.height = "";
+                document.getElementsByClassName('button-desktop')[ordered].text = "Less"
                 document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-large')[0].style.display = "block";
                 document.getElementsByClassName('slideDown')[ordered].getElementsByClassName('content-small')[0].style.display = "none";
             }
@@ -361,6 +370,8 @@
 
                 // document.getElementsByClassName('slideDown')[index].classList.remove('open');
                 document.getElementsByClassName('slideDown')[index].style.height = "400px";
+
+                document.getElementsByClassName('button-desktop')[index].text = "Read More"
 
                 document.getElementsByClassName('slideDown')[index].getElementsByClassName('content-large')[0].style.display = "none";
                 document.getElementsByClassName('slideDown')[index].getElementsByClassName('content-small')[0].style.display = "block";
@@ -382,6 +393,7 @@
                 console.log('b')
                 document.getElementsByClassName('slideDownMobile')[ordered].classList.add('open');
                 document.getElementsByClassName('slideDownMobile')[ordered].style.height = "";
+                document.getElementsByClassName('button-mobile')[ordered].text = "Less"
                 document.getElementsByClassName('slideDownMobile')[ordered].getElementsByClassName('content-large')[0].style.display = "block";
                 document.getElementsByClassName('slideDownMobile')[ordered].getElementsByClassName('content-small')[0].style.display = "none";
             }
@@ -394,7 +406,7 @@
 
                 // document.getElementsByClassName('slideDownMobile')[index].classList.remove('open');
                 document.getElementsByClassName('slideDownMobile')[index].style.height = "";
-
+                document.getElementsByClassName('button-mobile')[index].text = "Read More"
                 document.getElementsByClassName('slideDownMobile')[index].getElementsByClassName('content-large')[0].style.display = "none";
                 document.getElementsByClassName('slideDownMobile')[index].getElementsByClassName('content-small')[0].style.display = "block";
             });
